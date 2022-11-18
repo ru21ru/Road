@@ -10,9 +10,8 @@ import java.util.Scanner;
  * Если любая другая строка - вывести Unknown message.
  * Сделать через switch-case
  */
-public class Task2SwitchCase {
-    public static String GetString()
-    {
+public class Task1SwitchCase {
+    public static String GetString() {
 //        Создаем сканер для чтения с клавиатуры
         Scanner scanner = new Scanner(System.in);
 
@@ -27,11 +26,10 @@ public class Task2SwitchCase {
 //        Зачем - разберемся, когда будем изучать I/O Streams
         scanner.close();
 
-        return  s;
+        return s;
     }
 
-    public static void PrintString(String s)
-    {
+    public static void PrintString(String s) {
 
 //        Используем конструкцию switch-case для переменной s
 
@@ -55,6 +53,7 @@ public class Task2SwitchCase {
         }
 
     }
+
     public static void main(String[] args) {
 
         PrintString(GetString());

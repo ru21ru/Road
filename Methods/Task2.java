@@ -17,7 +17,7 @@ import java.util.Scanner;
  * Также максимальное и минимальное значение int содержится в константах
  * Integer.MIN_VALUE и Integer.MAX_VALUE соответственно.
  */
-public class Task4 {
+public class Task2 {
     public static int InputAB(Scanner scanner, String message) {
 //        Выводим сообщение "Enter a: " в консоль.
 //        Данное сообщение не является обязательным, лишь информирует пользователя,
