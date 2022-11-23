@@ -3,7 +3,7 @@ package Static;
 import java.util.Scanner;
 
 class SimpleNumber {
-    protected static int[] primeNumbers;
+    private static int[] primeNumbers;
 
     public static void main(String[] args) {
         int quantity;
